@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url('./img/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg');
+    background-position: center 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+#formClima{
+    display: flex;
+    min-width: 280px;
+    max-width: 1920px;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 20px; 
+    margin: 100px auto;
+}
+
+#cityInput{
+    display: flex;
+    border-radius: 20px;
+    background-image: url('./img/WhatsApp_Image_2024-02-28_at_13.54.13-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: 32px;
+    background-position: 98%;
+}
+
+#climeos{
+    font-family: 'Codec Pro', sans-serif;
+    font-size: 25px;
+}
+
+#climaResult{
+    display: flex;
+    height: 100%;
+    /* margin: 200px auto; */
+    background-color: #8b9da25d;
+    border: 5px solid rgba(0, 0, 0, 0.436);
+    border-radius: 20px;
+    width: 60%;
+    height: 300px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#horario{
+    font-family: 'Codec Pro', sans-serif;
+    font-size: 135px;
+}
+
+#velocidadedoventoid{
+    font-family: 'Codec Pro', sans-serif;
+    font-size: 30px;
+
+}
+
+#ventoicon{
+    font-family: 'Codec Pro', sans-serif;
+    font-size: 30px;
+}
+
+#umidadeicon{
+    font-family: 'Codec Pro', sans-serif;
+    font-size: 30px;
+}
+
+#umidadeid{
+   
+    font-family: 'Codec Pro', sans-serif;
+    font-size: 30px;
+}
+
+#temperaturaid{
+    font-family: 'Codec Pro', sans-serif;
+    font-size: 30px;
+    
+}
+
+#climaid{
+    font-family: 'Codec Pro', sans-serif;
+    font-size: 60px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.climaResultPai{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+/* #climades{
+    display: flex;
+} */
+
+
+
+/* @media (max-width: 1356px) {
+
+    #formClima {
+        position: absolute;
+        margin-top: 25%;
+        margin-left: 20%;
+    }
+
+    #climaResult{
+        position: absolute;
+        margin-left: 65%;
+        margin-top: 3%;
+        background-color: #8b9da25d;
+        border: 2px solid black;
+        border-radius: 20px;
+        width: 450px;
+        h
+    }
+} */
+
+
+
+/* Henry */
+
+.nav-underline {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-item { 
+    display: flex;
+    width: 100px;
+}
+
+.nav-item2 {
+    display: flex;
+    width: 100px;
+}
+
+.nav-item3 {
+    display: flex;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+p {
+    font-size: 20px;
+    color: #484747;
+}
+
+#icon-error {
+    width: 100px;
+    display: flex;
+}
+
+#icon-telefone {
+    width: 100px;
+    display: flex;
+}
+
+#icon-email {
+    width: 100px;
+    display: flex;
+}
+
+.climeostil {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.telefone {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    align-items: center;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-around;
+    margin: 5em;
+}
