@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Codec Pro', sans-serif;
 }
 
 body{
@@ -34,7 +35,6 @@ body{
 }
 
 #climeos{
-    font-family: 'Codec Pro', sans-serif;
     font-size: 25px;
 }
 
@@ -52,40 +52,33 @@ body{
 }
 
 #horario{
-    font-family: 'Codec Pro', sans-serif;
     font-size: 135px;
 }
 
 #velocidadedoventoid{
-    font-family: 'Codec Pro', sans-serif;
     font-size: 30px;
 
 }
 
 #ventoicon{
-    font-family: 'Codec Pro', sans-serif;
     font-size: 30px;
 }
 
 #umidadeicon{
-    font-family: 'Codec Pro', sans-serif;
     font-size: 30px;
 }
 
 #umidadeid{
    
-    font-family: 'Codec Pro', sans-serif;
     font-size: 30px;
 }
 
 #temperaturaid{
-    font-family: 'Codec Pro', sans-serif;
     font-size: 30px;
     
 }
 
 #climaid{
-    font-family: 'Codec Pro', sans-serif;
     font-size: 60px;
 }
 
@@ -107,6 +100,8 @@ body{
     flex-direction: row-reverse;
     justify-content: center;
 }
+
+
 
 /* #climades{
     display: flex;
@@ -145,6 +140,10 @@ body{
     justify-content: flex-end;
 }
 
+.nav-underline a {
+    color: black;
+}
+
 .nav-item { 
     display: flex;
     width: 100px;
@@ -171,17 +170,18 @@ p {
 
 #icon-error {
     width: 100px;
-    display: flex;
 }
 
 #icon-telefone {
     width: 100px;
-    display: flex;
 }
 
 #icon-email {
     width: 100px;
-    display: flex;
+}
+
+#icon-ajuda {
+    width: 100px;
 }
 
 .climeostil {
@@ -192,26 +192,54 @@ p {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+
+.erro {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .telefone {
     display: flex;
     flex-direction: column;
-    justify-content: flex;
     align-items: center;
 }
 
 .email {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column; 
     align-items: center;
 }
 
 .contato {
     display: flex;
     justify-content: space-around;
-    margin: 5em;
 }
+
+.ajuda {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.alinhamento {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.obrigado {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
