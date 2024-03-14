@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Codec Pro", sans-serif;
     /* Serve para dar controle do tamanho exato da tela, deixando a div com o tamanho máxmo colocado manualmente. */
 }
 
@@ -44,6 +43,7 @@ body {
 }
 
 #climeos {
+    font-family: "Codec Pro", sans-serif;
     font-size: 25px;
     padding: 10px;
     text-align: flex-end;
@@ -63,22 +63,27 @@ body {
 }
 
 #horario {
+    font-family: "Codec Pro", sans-serif;
     font-size: 90px;
 }
 
 #velocidadedoventoid {
+    font-family: "Codec Pro", sans-serif;
     font-size: 25px;
 }
 
 #umidadeid {
+    font-family: "Codec Pro", sans-serif;
     font-size: 25px;
 }
 
 #temperaturaid {
+    font-family: "Codec Pro", sans-serif;
     font-size: 25px;
 }
 
 #climaid {
+    font-family: "Codec Pro", sans-serif;
     font-size: 60px;
 }
 
@@ -123,6 +128,7 @@ body {
 #city {
     display: flex;
     text-align: center;
+    font-family: "Codec Pro", sans-serif;
     font-size: 25px;
     padding: 0px 0px 20px 0px;
 }
@@ -222,137 +228,184 @@ body {
         background-size: 20px;
         background-position: 98%;
     }
-}
 
- /* Henry */
-
-    .nav-underline {
-        flex: 1;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-
-    .nav-underline a {
-        color: black;
+    .nav-link {
+        font-size: 10px;
     }
 
     .nav-item {
-        display: flex;
-        width: 100px;
+        padding: 5px;
     }
 
     .nav-item2 {
-        display: flex;
-        width: 100px;
+        padding: 5px;
     }
 
     .nav-item3 {
-        display: flex;
+        padding: 5px;
+    }
+
+    #icon-telefone,
+    #icon-email,
+    #icon-ajuda,
+    #icon-feedback {
+        max-width: 15%;
+    }
+
+    #icon-error {
+        max-width: 10%;
+    }
+
+
+    .telefone,
+    .email,
+    .erro,
+    .ajuda,
+    .obrigado {
+        text-align: center;
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 20px !important;
         color: #333;
     }
 
     p {
-        font-size: 20px;
-        color: #484747;
+        font-size: 15px !important;
     }
 
-    #icon-error {
-        width: 100px;
-    }
+}
 
-    #icon-telefone {
-        width: 100px;
-    }
+/* Henry */
 
-    #icon-email {
-        width: 100px;
-    }
+.nav-underline {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 
-    #icon-ajuda {
-        width: 100px;
-    }
+.nav-underline a {
+    color: black;
+}
 
-    #icon-feedback {
-        width: 100px;
-    }
+.nav-item {
+    display: flex;
+    padding: 10px;
+}
 
-    .climeostil {
-        display: flex;
-        flex-direction: row;
-    }
+.nav-item2 {
+    display: flex;
+    padding: 10px;
+}
 
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
+.nav-item3 {
+    display: flex;
+    padding: 10px;
+}
 
-    .erro {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+h1 {
+    font-size: 36px;
+    color: #333;
+}
 
-    .telefone {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+p {
+    font-size: 20px;
+    color: #484747;
+}
 
-    .email {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+#icon-error {
+    width: 100px;
+}
 
-    .contato {
-        display: flex;
-        justify-content: space-around;
-    }
+#icon-telefone {
+    width: 100px;
+}
 
-    .ajuda {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+#icon-email {
+    width: 100px;
+}
 
-    .alinhamento {
-        width: 100%;
-        height: 90vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }
+#icon-ajuda {
+    width: 100px;
+}
 
-    .alinhamento input {
-        font-size: 16px;
-        color: #333;
-        background-color: #c9c9c9;
-        padding: 10px 15px;
-        border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
+#icon-feedback {
+    width: 100px;
+}
 
-    textarea {
-        border: groove 2px black;
-        border-radius: 5px;
-        background-color: #c9c9c9;
-    }
+.climeostil {
+    display: flex;
+    flex-direction: row;
+}
 
-    .obrigado {
-        width: 100%;
-        height: 90vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.erro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.telefone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ajuda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alinhamento {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.alinhamento input {
+    font-size: 16px;
+    color: #333;
+    background-color: #c9c9c9;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+textarea {
+    border: groove 2px black;
+    border-radius: 5px;
+    background-color: #c9c9c9;
+}
+
+.obrigado {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
