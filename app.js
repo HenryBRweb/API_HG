@@ -12,16 +12,6 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// const TraducaoClima = {
-//     "few clouds": "Poucas nuvens",
-//     "scattered clouds": "Nuvens dispersas",
-//     "overcast clouds": "Clima nublado",
-//     "broken clouds": "Nuvens fragmentadas",
-//     "light snow": "Pouca neve",
-//     "light intensity drizzle": "Chuvisco de intensidade leve",
-//     "light rain": "Chuva leve"
-// }
-
 const TraducaoClima = {
     "Thunderstorm": "Tempestade",
     "thunderstorm with light rain": "Tempestade com chuva leve",
@@ -94,12 +84,16 @@ app.get('/climatempo/:cidade', async(req, res) => {
         const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}&units=metric`);
         if (response.status === 200) {
             const clima = TraducaoClima[response.data.weather[0].description] || response.data.weather[0].description;
+            const iconUrl = `http://openweathermap.org/img/wn/${response.data.weather[0].icon}.png`;
 
             const weatherData = {
+                Cidade: req.params.cidade,
+                Pais: response.data.sys.country,
                 Temperatura: response.data.main.temp,
                 Umidade: response.data.main.humidity,
                 VelocidadeDoVento: response.data.wind.speed,
-                Clima: clima
+                Clima: clima,
+                iconUrl: iconUrl
             };
             res.send(weatherData);
         } else {
