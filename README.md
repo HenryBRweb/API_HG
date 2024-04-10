@@ -12,7 +12,7 @@
 
 **- Faça o download ou clone este repositório em seu computador.**-
 
-**- Abra o arquivo index.html em um navegador da web.**
+**- Abra o arquivo `index.html` em um navegador da web.**
 
 **- Digite o nome da cidade desejada no campo de texto fornecido e pressione Enter ou clique no botão de busca.**
 
