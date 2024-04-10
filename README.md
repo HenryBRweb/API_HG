@@ -21,8 +21,11 @@
 # 🏢 Estrutura do Projeto
 
 **-  `index.html:`  O arquivo HTML principal da aplicação.**
+
 **-  `style.css:`  O arquivo CSS para estilização da aplicação.**
+
 **-  `script.js:`  O arquivo JavaScript responsável por interações e manipulação do DOM.**
+
 **-  `img/:`  Pasta contendo imagens utilizadas na aplicação.**
 
 # Licença 🔒
