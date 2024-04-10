@@ -1,4 +1,4 @@
-# Climeos
+# Climeos 🌎
 
 # 🛠️ Descrição do Projeto
 
@@ -17,3 +17,13 @@
 **- Digite o nome da cidade desejada no campo de texto fornecido e pressione Enter ou clique no botão de busca.**
 
 **- Aguarde alguns segundos enquanto a aplicação busca as informações sobre o clima da cidade inserida.**
+
+# 🏢 Estrutura do Projeto
+
+**`index.html:`  O arquivo HTML principal da aplicação.**
+**`style.css:`  O arquivo CSS para estilização da aplicação.**
+**`script.js:`  O arquivo JavaScript responsável por interações e manipulação do DOM.**
+**`img/:`  Pasta contendo imagens utilizadas na aplicação.**
+
+# Licença 🔒
+**Este projeto está licenciado sob a Licença de Climeos.**
